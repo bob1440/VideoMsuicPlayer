@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.IO;
 
+
 namespace WebApplication1
 {
     /// <summary>
@@ -16,9 +17,9 @@ namespace WebApplication1
         {
             //檔案名稱
             string txt = HttpContext.Current.Server.UrlDecode(context.Request.QueryString["txt"]);
+            
 
-
-            string filePath = "D:\\music\\" + txt;
+            string filePath = MainParm.Instance.Dir + txt;
             byte[] buffer = File.ReadAllBytes(filePath);
 
             context.Response.Clear();
