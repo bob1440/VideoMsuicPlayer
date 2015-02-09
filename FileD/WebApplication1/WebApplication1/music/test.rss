@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:jwplayer="http://rss.jwpcdn.com/">
+<channel>
+
+  <item>
+    <title>Test1</title>
+    <description>Sintel is a fantasy CGI from the Blender Open Movie Project.</description>
+    <jwplayer:image>/assets/sintel.jpg</jwplayer:image>
+    <jwplayer:source file="/music/1770533184_2758651_l.mp3" />
+  </item>
+  <item>
+    <title>Test2</title>
+    <description>Sintel is a fantasy CGI from the Blender Open Movie Project.</description>
+    <jwplayer:image>/assets/sintel.jpg</jwplayer:image>
+    <jwplayer:source file="/music/1770533184_2758651_l.mp3" />
+  </item>
+
+</channel>
+</rss>
