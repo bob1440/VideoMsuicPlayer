@@ -21,16 +21,16 @@ namespace WebApplication1
            // List<string> array2 = Directory.GetFiles(@"D:\music", "*.mp3").ToList<string>(); // <-- Case-insensitive
           //  array2.AddRange(Directory.GetFiles(@"D:\music", "*.ape").ToList<string>());
 
-            List<string> array2 = Directory.GetFiles(Server.MapPath("/music"), "*.mp4").ToList<string>(); // <-- Case-insensitive
+         //   List<string> array2 = Directory.GetFiles(Server.MapPath("/music"), "*.mp4").ToList<string>(); // <-- Case-insensitive
           
-            //List<string> array2 = Directory.GetFiles(MainParm.Instance.Dir, "*.mp4").ToList<string>(); // <-- Case-insensitive
+            List<string> array2 = Directory.GetFiles(MainParm.Instance.Dir, "*.mp4").ToList<string>(); // <-- Case-insensitive
           
             // Display all files.
             Console.WriteLine("--- Files: ---");
             foreach (string name in array2)
             {
-               
-                Response.Write("<div><a href='/PlayOneMedia.aspx?mn="+name.Substring((name.LastIndexOf("\\")+1))+"'>aaa</a></div>");
+
+                Response.Write("<div><a href='/PlayOneMedia.aspx?mn=" + name.Substring((name.LastIndexOf("\\") + 1)) + "'>" + name.Substring((name.LastIndexOf("\\") + 1)) + "</a></div>");
 
           //      Response.Write("<div>"+ urlconvertor(name) + "</div>");
             }

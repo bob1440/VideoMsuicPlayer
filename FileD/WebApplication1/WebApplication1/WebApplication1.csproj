@@ -109,6 +109,7 @@
   <ItemGroup>
     <Content Include="Mp4Handler.ashx" />
     <None Include="music\test.rss" />
+    <None Include="Properties\PublishProfiles\vmplayer.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Mp3Handler.ashx" />

@@ -14,7 +14,7 @@ namespace WebApplication1
 
         protected void Page_Load(object sender, EventArgs e)
         {
-           PlayFile ="/Mp4Handler.ashx?txt="+ Request["mn"];
+           PlayFile ="/music/"+ Request["mn"];
 
         }
     }

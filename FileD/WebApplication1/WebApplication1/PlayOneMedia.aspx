@@ -18,8 +18,8 @@
        flashplayer: "/player/jwplayer.flash.swf",
         file: "<%=PlayFile %>",
       // playlist: "/music/test.rss",
-        height: 360,
-        width: 640,
+        height: 600,
+        width: 960,
         type: 'mp4',
         provider:"video"
         

@@ -18,8 +18,8 @@ namespace WebApplication1
             }
             set { _Instance = value; }
         }
-
-        private string _Dir = "C:\\Users\\PUWU\\Documents\\GitHub\\VideoMsuicPlayer\\FileD\\WebApplication1\\WebApplication1\\music\\";
+        private string _Dir = "D:\\WEB\\vmplayer\\music\\";
+      //  private string _Dir = "C:\\Users\\PUWU\\Documents\\GitHub\\VideoMsuicPlayer\\FileD\\WebApplication1\\WebApplication1\\music\\";
         public string Dir { get { return _Dir; } }
 
     
